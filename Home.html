@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CST|CAFE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="Images/cafelogo.jpg" alt="Coffee Shop Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+        <div class="nav-icons">
+            <form action="https://www.google.com/search" method="GET" id="nav-form">
+                <input type="text" id="searchBar" placeholder="Search Here" name="q">
+                <button type="submit" id="search-icon"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+        
+        
+        
+            <a id="cart-icon"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        <div class="menu-icon" id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Your Campus Coffee Hub–Good Vibes</h1>
+                <p>Step into CST Café, where fresh brews, delicious bites, and a cozy atmosphere come together. Whether you need a caffeine boost or a quick snack between classes, we’ve got you covered!</p>
+                <a href="Products.html" class="btn">Order Now</a>
+            </div>
+            <div class="circle">
+                <img src="Images/coffee-cup.png" alt="Coffee Cup" class="hero-image">
+            </div>
+        </div>
+        <div class="top">
+            <img src="Images/topview-removebg-preview.png" >
+        </div>
+    </section>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-close" id="mobile-menu-close">
+            <i class="fas fa-times"></i>
+        </div>
+        <ul class="mobile-nav-links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </div>
+
+    <!-- Cart Overlay -->
+    <div class="cart-overlay" id="cart-overlay">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <div class="cart-close" id="cart-close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <div class="cart-items">
+            <!-- Cart Item 1 -->
+            <div class="cart-item">
+                <div class="cart-item-details">
+                    <img src="Images/OIP.jpeg" alt="Coffee Beans Light">
+                    <div class="cart-item-info">
+                        <h4>Cart Item 01</h4>
+                        <div class="cart-item-price">Nu.200/kg</div>
+                    </div>
+                </div>
+                <div class="cart-remove">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <!-- Cart Item 2 -->
+            <div class="cart-item">
+                <div class="cart-item-details">
+                    <img src="Images/beanslight.jpeg" alt="Coffee Beans Dark">
+                    <div class="cart-item-info">
+                        <h4>Cart Item 02</h4>
+                        <div class="cart-item-price">Nu.199/kg</div>
+                    </div>
+                </div>
+                <div class="cart-remove">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <!-- Cart Item 3 -->
+            <div class="cart-item">
+                <div class="cart-item-details">
+                    <img src="Images/cdark.jpeg" alt="Green Coffee">
+                    <div class="cart-item-info">
+                        <h4>Cart Item 03</h4>
+                        <div class="cart-item-price">Nu.130.99/kg</div>
+                    </div>
+                </div>
+                <div class="cart-remove">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <!-- Cart Item 4 -->
+            <div class="cart-item">
+                <div class="cart-item-details">
+                    <img src="Images/last.jpeg" alt="Coffee Beans Light">
+                    <div class="cart-item-info">
+                        <h4>Cart Item 04</h4>
+                        <div class="cart-item-price">Nu.150</div>
+                    </div>
+                </div>
+                <div class="cart-remove">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <a href="#" class="checkout-btn">Checkout Now</a>
+        </div>
+    </div>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <h2 class="section-title">TOP CATEGORIES</h2>
+        <p class="section-subtitle">Explore The Recent Most Bought Drinks This Week</p>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="Images/category1.jpg" alt="Coffee Mocha">
+            </div>
+            <div class="category-card">
+                <img src="Images/category2.jpg" alt="Espresso Americano">
+            </div>
+            <div class="category-card">
+                <img src="Images/category3.jpg" alt="Cappuccino">
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievemnets-->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What People Say</h2>
+            
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <p class="testimonial-text">CST Cafe is my second home. The staff is amazingly friendly, and it's the perfect place to study or catch up with friends between classes.</p>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="Images/photo_2025-03-18_23-47-43.jpg" alt="Emma Turner">
+                        </div>
+                        <div class="author-info">
+                            <h4>Tashi Gyeltshen</h4>
+                            <p>Software Engineering Department</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <p class="testimonial-text">As a professor, I appreciate having a quality coffee spot on campus. I've had many great discussions with students here that wouldn't happen in a classroom setting.</p>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="Images/photo_2025-03-18_23-47-56.jpg" alt="Professor Alan Blackwood">
+                        </div>
+                        <div class="author-info">
+                            <h4>Chimi Gyeltshen</h4>
+                            <p>Information Technology Engineering Department</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <p class="testimonial-text">The sustainability initiatives at CST Cafe align perfectly with our campus values. Plus, they make the best cold brew I've ever tasted!</p>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="Images/photo_2025-03-18_23-47-32.jpg" alt="Lisa Nguyen">
+                        </div>
+                        <div class="author-info">
+                            <h4> Sonam Choejur</h4>
+                            <p>Information Technology Engineering Department</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cta">
+                <a href="#" class="cta-btn">Visit Us Today</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Background Overlay -->
+    <div class="overlay" id="overlay"></div>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="#">Shoes</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Category</h3>
+                    <ul>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">New In</a></li>
+                        <li><a href="#">Weekly Pick</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Company Info</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Vouchers</a></li>
+                        <li><a href="#">Size Charts</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Follow us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-bottom-links">
+                <a href="#">Data settings</a>
+                <a href="#">Cookie settings</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms And Conditions</a>
+                <a href="#">Imprint</a>
+            </div>
+        </div>
+    </div>
+    <script src="functional.js"></script>
+</body>
+</html>
